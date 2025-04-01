@@ -25,7 +25,7 @@ int simp()
     for (ll i = 0; i < n; i++)
     {
         cin >> a[i];
-        s[i + 1] = s[i] + a[i];
+        s[i+1] = s[i] + a[i];
     }
     ll res = 0;
     for (ll i = 0; i < n; i++)
